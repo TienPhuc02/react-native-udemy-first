@@ -1,16 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
-
+import { StyleSheet, Text, View, Button } from "react-native";
 export default function Page() {
   return (
     <View style={styles.container}>
-      <View style={styles.main}>
-        <Text style={styles.title}>Hello Phuc</Text>
-        <Text style={styles.subtitle}>This is the first page of your app.</Text>
+      <View>
+        <Text>hello world</Text>
+        <Button title="click me" />
+        <Button title="click me" />
       </View>
     </View>
   );
 }
-
+//View -> kiểu như thẻ div
 const styles = StyleSheet.create({
   container: {
     flex: 1,
